@@ -54,6 +54,7 @@ header a:hover {
     background: cover;
     position: sticky;
     height: calc(100vh - 5.71125rem);
+    width: auto;
 }
 
 .grid-conteudo1, .grid-conteudo2 {
@@ -82,4 +83,13 @@ p {
 .grid-conteudo2 {
     grid-area: 1 / 2; 
     /* linha e coluna */
+}
+
+footer ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
 }
