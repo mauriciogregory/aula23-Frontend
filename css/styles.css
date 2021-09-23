@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --corPreta: #242424;
+    --corCinzaLigth: rgb(194, 194, 194);
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 1.35rem;
+    color: cadetblue;
+    padding: .600rem;
+}
+
+header ul {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex: 1.56rem;
+    left: 0;
+}
+
+header ul li{
+    /* display: inline-block; */
+    position: relative;
+    padding: 10px;
+    background-color: brown;
+    list-style: none;
+    text-align: left;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    padding: 1rem; 
+    top: 0;
+    align-items: center;
+    background-color: var(--corPreta);
+    padding: 1.45rem;
+}
+
+header a:hover {
+    background: #242424;
+    color: aliceblue;
+}
+
+#banner {
+    background-image: url(https://images7.alphacoders.com/111/1115466.jpg);
+    background: cover;
+    position: sticky;
+    height: calc(100vh - 5.71125rem);
+}
+
+.grid-conteudo1, .grid-conteudo2 {
+    padding: 1rem;
+}
+
+h2 { 
+    font-size: 2rem;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+/* grid do textos */
+.grid-container {
+    display: grid;
+    grid-gap: 3rem;   
+    background-color: var(--corCinzaLigth); 
+}
+
+.grid-conteudo1 {
+    grid-area: 1 / 1;
+}
+
+.grid-conteudo2 {
+    grid-area: 1 / 2; 
+    /* linha e coluna */
+}
